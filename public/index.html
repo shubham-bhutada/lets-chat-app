@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lets Chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="user-details" id="form">
+      <h1>Joining details</h1>
+      <label for="username">Username :</label>
+      <input
+        type="text"
+        id="username"
+        placeholder="Enter username..."
+        required
+      />
+      <button id="submit-btn" type="submit">Enter the chatroom</button>
+    </form>
+    <div class="chatroom-container">
+      <div class="chatroom-header"></div>
+      <div class="messages">
+        <div class="message">hey</div>
+        <!-- reci -->
+        <div class="message sent">hi</div>
+        <!-- sent -->
+      </div>
+      <div class="text-input">
+        <input type="text" placeholder="Enter message..." id="message-input" />
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
